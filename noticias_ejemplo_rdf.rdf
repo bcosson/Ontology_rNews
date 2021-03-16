@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1"
+     xml:base="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rNews="http://iptc.org/std/rNews/2011-10-07#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1">
+        <owl:imports rdf:resource="http://iptc.org/std/rNews/2011-10-07#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_0">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros"/>
+        <rNews:associatedMedia rdf:resource="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4"/>
+        <rNews:associatedMedia rdf:resource="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon"/>
+        <rNews:alternativeHeadline>Según Sedes-Cochabamba, el sector Sur de la ciudad tiene la mayor cantidad de casos de rabia canina del Departamento.</rNews:alternativeHeadline>
+        <rNews:articleBody>La mujer de 57 años atacada el lunes por perros en un barrio de Cochabamba tiene al menos 25 lesiones. La Dirección de Zoonosis capturó a 10 canes callejeros en la zona donde ocurrió el hecho, grabado en un video de seguridad.
+
+Una de las hijas de la afectada declaró a la red Bolivisión que su mamá tiene al menos 25 heridas en el cuerpo producto de las mordeduras en piernas, brazos y manos, por lo que exigió a los dueños de los animales que corran con los gastos de curación y rehabilitación.
+
+«El dueño del can no se ha hecho cargo, no sabía dónde estaba, no nos han preguntado tampoco como estamos haciendo, no nos han dicho absolutamente nada. El caballero también se fue por otro lado, tampoco me dijo cómo vamos hacer o cómo vamos a arreglar», informó.
+
+Según informó la red Unitel, los dueños del perro que inició el ataque se vieron sorprendidos por el hecho. Aseguraron que el can salió cuando abrieron la puerta para ir a echar basura. “Es bien tierno el perrito, la verdad; hasta baila, le gusta bailar pero no sé… me he encontrado y me ha seguido el perrito, no es agresivo”.
+
+
+Ataque de los perros a la mujer en Cochabamba. Video de Seguridad difundido por Red Uno
+
+De acuerdo a las imágenes de la cámara de seguridad, se observa a un can que comienza a ladrar a la mujer de 57 años y posteriormente la ataca. Otros perros se suman al ataque, provocan su caída y la muerden en las piernas. La llegada de otros vecinos hace que los canes se alejen de su víctima.
+
+La Unidad de Zoonosis del Municipio de Cochabamba capturó este martes a 10 canes en la zona de Pucara, al sur de Cochabamba, lugar donde ocurrió el hecho, mientras que el responsable de Epidemiología, del Servicio Departamental de Salud (Sedes), Yercin Mamani, explicó que se investiga el caso y se procedió a vacunar contra la rabia a la mujer atacada por los canes.
+
+Según el Sedes, el sector Sur de la ciudad tiene la mayor cantidad de casos de rabia canina del Departamento.</rNews:articleBody>
+        <rNews:datePublished>9 de marzo de 2021 / 19:16</rNews:datePublished>
+        <rNews:headline>Mujer atacada por perros tiene al menos 25 lesiones, Zoonosis captura a 10 canes callejeros</rNews:headline>
+        <rNews:url>https://www.la-razon.com/ciudades/2021/03/09/mujer-atacada-por-perros-tiene-al-menos-25-lesiones-zoonosis-captura-a-10-canes-callejeros/</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_1">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz"/>
+        <rNews:associatedMedia rdf:resource="https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon"/>
+        <rNews:additionalName>Accidente de bus deja tres muertos y 15 heridos en la ruta Cochabamba-Santa Cruz</rNews:additionalName>
+        <rNews:articleBody>Un bus interdepartamental de la empresa Dorado, que realizaba la ruta Cochabamba- Santa Cruz, protagonizó este viernes un accidente de tránsito que dejó al menos tres fallecidos y 15 heridos, informó el subcomandante departamental de la Policía de Cochabamba, Jhonny Corrales.
+
+“El hecho ocurrió en el kilómetro 27 de la carretera Cochabamba-Santa Cruz, en el sector de Tutimayu a las 06.10, por el impacto fallecieron dos personas mayores y un menor”, informó a radio Éxito.
+
+Los heridos fueron llevados al hospital México de Sacaba y a la clínica Arévalo. Imágenes en redes sociales dan cuenta que uniformados acudieron al sector para socorrerlos, algunos quedaron atrapados entre los fierros retorcidos.
+
+Se presume exceso de velocidad del vehículo. Según informe técnico preliminar, el motorizado colisionó con un promontorio de tierra y quedó al costado de la carretera.</rNews:articleBody>
+        <rNews:datePublished>12 de marzo de 2021 / 11:50</rNews:datePublished>
+        <rNews:description>Se presume exceso de velocidad del vehículo. Según un informe técnico preliminar, colisionó con un promontorio de tierra y quedó al costado de la carretera.</rNews:description>
+        <rNews:headline>Seguridad Ciudadana</rNews:headline>
+        <rNews:url>https://www.la-razon.com/seguridad-ciudadana/2021/03/12/accidente-de-bus-deja-tres-muertos-y-15-heridos-en-la-ruta-cochabamba-santa-cruz/</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_2">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia"/>
+        <rNews:associatedMedia rdf:resource="https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC"/>
+        <rNews:articleBody>Si está dispuesto a cambiar de vida en un pequeño pueblo de la provincia de Castellón que ofrece vivienda gratis y trabajo garantizado a sus nuevos habitantes guarde este correo electrónico: info@latorredendomenec.es
+
+El Ayuntamiento de La Torre d’en Doménec, una localidad castellonense con apenas 160 vecinos censados, busca familias con niños en edad escolar con el objetivo de poder reabrir el colegio del pueblo, cerrado desde hace ocho años. Para ello, el Consistorio que preside Héctor Prats, del Partido Popular, ofrece una casa y la gestión del bar municipal, que cerró sus puertas en enero de este año.
+
+
+La Torre d’en Doménec sigue los pasos de otros municipios de la España vaciada como el de Zucaina, también en la provincia de Castellón, que logró reactivar su escuela captando a nuevos vecinos con una oferta irrestible: casa gratuita y trabajo garantizado.
+
+En el caso de la Torre d’en Doménec, en la actualidad hay tres niños residiendo que se encuentran en edad escolar. Con otros tres, el municipio podría volver a abrir su colegio. El Ayuntamiento se ha puesto manos a la obra tras consultar con la Dirección Territorial de Educación. La escuela de la Torre d’en Doménec forma parte de un Colegio Rural Agrupado junto a los de Vilanova d’Alcolea, Benlloc, y La Pobla Tornesa. Sin embargo, es la única que está cerrada por falta de alumnos.
+
+La Torre d’en Doménec sigue los pasos de otros municipios de la España vaciada como el de Zucaina, también en la provincia de Castellón, que logró reactivar su escuela captando a nuevos vecinos con una oferta irrestible: casa gratuita y trabajo garantizado.
+
+En el caso de la Torre d’en Doménec, en la actualidad hay tres niños residiendo que se encuentran en edad escolar. Con otros tres, el municipio podría volver a abrir su colegio. El Ayuntamiento se ha puesto manos a la obra tras consultar con la Dirección Territorial de Educación. La escuela de la Torre d’en Doménec forma parte de un Colegio Rural Agrupado junto a los de Vilanova d’Alcolea, Benlloc, y La Pobla Tornesa. Sin embargo, es la única que está cerrada por falta de alumnos.
+
+La Torre d’en Doménec está situado en la comarca de la Plana Alta y es un pueblo cuya economía gira en torno a la agricultura y la ganadería, así como en el turismo de los «veraneantes», como tantos otros pueblos de la España vaciada. El municipio está a apenas un cuarto de hora del Mar Mediterráneo y a venticinco minutos de la capital de la provincia.
+Municipio libre de coronavirus
+
+Además, es una de las pocas localidades de la Comunidad Valenciana que se pueden considerar libre de coronavirus. De hecho, en más de un año de pandemia solo ha registrado un caso positivo de Covid-19 y no consta ni ningún fallecimiento, de acuerdo con la información suministrada por la Conselleria de Sanidad de la Generalitat.
+
+Sin escuela y sin bar, el Ayuntamiento pretende lograr reto de cumplir su doble objetivo y se marca como plazo que antes del próximo verano esté finalizado el proceso de selección de las familias interesadas, que pueden hacer llegar su petición a través del correo electrónico habilitado por el Consistorio: info@latorredendomenec.es</rNews:articleBody>
+        <rNews:dateModified>15/03/2021 07:59h</rNews:dateModified>
+        <rNews:headline>Un pueblo de Castellón busca familias con niños a cambio de casa gratis y trabajo</rNews:headline>
+        <rNews:url>https://www.abc.es/espana/comunidad-valenciana/abci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_3">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo"/>
+        <rNews:articleBody>Cuando acabó el año 2020, tras un empate cedido ante el Eibar en el Camp Nou (1-1), ni el más optimista de los culés podía imaginar un cambio radical del rumbo del Barça ni un vuelco en la clasificación en apenas dos meses y medio. El conjunto de Ronald Koeman era octavo y estaba a 10 puntos del Atlético de Madrid, con un partido menos de los colchoneros. El Real Madrid era segundo con cinco puntos más que los azulgrana. Planeaba incluso por Barcelona, que no en el vestuario barcelonista, el temor a no clasificarse para la próxima edición de la Champions League.
+
+La realidad es hoy diametralmente distinta. Aunque el Barça ya no está vivo en Europa por culpa de un 1-4 en la ida ante el PSG que no pudo levantar en París pese a un partidazo, un triunfo hoy (21 h./Movistar LaLiga) ante el Huesca en el Camp Nou dejaría a los azulgrana a un paso de depender de sí mismos para recuperar el título liguero dos años después. En caso de ganar, el liderato del Atlético quedaría a sólo cuatro puntos a falta de 11 jornadas a igualdad ya de encuentros disputados y con la visita de los rojiblancos al Estadi en la 35ª jornada el 9 de mayo, quién sabe si con algo de público si el CSD abre algo el grifo como están pidiendo los clubs. 
+
+El empate atlético (0-0) en Getafe concede una ocasión de oro más al Barça, que suma 16 jornadas invicto con sólo tres empates cedidos, todos en casa: 2-2 frente al Valencia, 1-1 ante el Eibar y 1-1 contra el Cádiz. Son 42 puntos de 48 posibles que se acercan a los 45 de 48 que logró el Atlético (sólo perdió por 2-0 ante el Madrid) tras ceder dos empates en sus primeros tres envites. Sin embargo, en las últimas ocho jornadas no ha enlazado dos victorias sumando 13 puntos de 24. A la espera de si remonta el miércoles el 0-1 ante el Chelsea, el calendario colchonero parece más complicado que el del Barça con visitas a Sevilla, Betis y Athletic además del Camp Nou.
+
+Y no hay que olvidar al Madrid, sólo dos puntos por debajo del Barça (si hoy gana) tras el 2-1 en el 91’ ante el Elche a tres jornadas de un Clásico en Madrid que se presume mucho más decisivo que semanas atrás. Haciendo suyo el “partido a partido” de Diego Pablo Simeone, Ronald Koeman antepone el día a día pero vencer al Huesca supondría meterse aún más de lleno en el pulso por LaLiga con la visita a Anoeta del próximo domingo (21.00 h.) como otro punto de inflexión para afrontar el parón de dos semanas previo al duelo en casa ante el Valladolid y el mencionado Clásico en el feudo merengue.
+
+El Huesca de Pacheta, colista a cuatro puntos de la salvación, ya cayó el 3 de enero en El Alcoraz (0-1) ante un buen Barça que no ha dejado de crecer con el único borrón del primer asalto contra el PSG. Los oscenses son el peor visitante con una victoria fuera y sólo nueve puntos pero hace un mes pusieron contra las cuerdas al Madrid pese a acabar perdiendo (1-2). Razón de más para que Messi y compañía no fallen. Otro tropiezo como el 1-1 ante el Cádiz sería imperdonable.</rNews:articleBody>
+        <rNews:headline>Ocasión de oro del Barça ante el Huesca para cercar al Atlético</rNews:headline>
+        <rNews:url>https://www.mundodeportivo.com/futbol/fc-barcelona/20210315/492704622319/ocasion-de-oro-del-barca-ante-el-huesca-para-cercar-al-atletico.html</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_4">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa"/>
+        <rNews:associatedMedia rdf:resource="https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais"/>
+        <rNews:datePublished>10 mar 2021 - 00:10 UTC+1</rNews:datePublished>
+        <rNews:headline>Tengo miedo</rNews:headline>
+        <rNews:url>https://elpais.com/planeta-futuro/2021-03-08/tengo-miedo.html</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_5">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19"/>
+        <rNews:associatedMedia rdf:resource="https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon"/>
+        <rNews:alternativeHeadline>Los datos del Ministerio de Salud dan cuenta de un acumulado nacional de positivos de 258.324 y de decesos de 11.930</rNews:alternativeHeadline>
+        <rNews:articleBody>Los casos nuevos de COVID-19 superaron este viernes el millar y el número de muertos subió a 27 con relación a los 19 del jueves. Oruro pasó al tercer lugar de los departamentos con más casos al registrar 100 nuevos contagios.
+
+El registro del Ministerio de salud informó de 1.084 nuevos positivos, de los cuales 513 están en Santa Cruz, 135 en La Paz, 100 en Oruro, 89 en Tarija, 78 en Cochabamba, 61 en Chuquisaca, 55 en Beni, 29 en Potosí y 24 en Pando.
+
+Los recuperados llegaron al cierre de esta semana a 203.466 y los descartados a 533.154, mientras que los activos se sitúan en 42.928 y los sospechosos en 1.918.
+
+El acumulado nacional de positivos está en 258.324 y los decesos subieron a 11.930 con los 27 de este viernes.</rNews:articleBody>
+        <rNews:datePublished>12 de marzo de 2021 / 22:02</rNews:datePublished>
+        <rNews:headline>Los casos nuevos de COVID-19 ascienden y superan el millar, los decesos llegaron a 27</rNews:headline>
+        <rNews:url>https://www.la-razon.com/sociedad/2021/03/12/los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez"/>
+        <rNews:mentions rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_7"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC"/>
+        <rNews:articleBody>«Si encierras a la gente en su casa sin salir tienes incidencia cero», pero «eso es irreal completamente». Es la opinión del doctor Pedro Cavadas al ser preguntado por el descenso de los contagios de coronavirus en España. Con las restricciones, «la gente no se toca, no se habla, no se escupe y no se contagia», pero entonces «como ya ha bajado, los sueltas».
+
+«Es jugar al gato y al ratón», ha añadido a pesar de que ha rechazado hacer pronósticos sobre una posible cuarta ola de la pandemia. «Es mejor para todos no jugar al futurismo. Hay cosas que son relativamente claras y que cualquier persona con dos ojos mínimamente abiertos lo vería», ha señalado.
+
+Cavadas, que recibió justo ayer jueves la vacuna contra el covid-19, ha asegurado que «hay que ponérsela» porque «es lo que hay». «Yo no pago impuestos convencido», ha ejemplificado, pero «hay que pagarlos».
+
+Así se ha expresado este viernes el conocido cirujano tras presentar a los medios su nueva hazaña médica: un joven albino que ha recuperado su rostro tras ser víctima de un virulento cáncer de piel.
+
+Pedro Cavadas ha comentado también las dificultades, derivadas de la pandemia, que ha tenido su fundación para trabajar en países como Tanzania, en los que muchos pacientes se han quedado sin recibir tratamiento. «Estarán allí cuando volvamos», ha asegurado el doctor.
+
+[El drama del negacionismo del coronavirus que afecta al doctor Pedro Cavadas]
+
+«El concepto de tiempo en Occidente se mide en horas y en África subsahariana en semanas, meses o años», ha matizado. «Una persona que ha esperado quince años por una patología, puede esperar dieciséis y no es un problema muy grande, básicamente porque esperaría toda la vida y no le atendería nadie».
+
+Aunque las patologías malignas no puede demorarse, la «inmensa mayoría» de las intervenciones que hacen en territorio africano son malformaciones o traumatismos. «Con lo que cuesta traer un paciente aquí, puedes hacer ciento y pico pacientes allí» y «el impacto en cuanto a la población es mayor», ha apuntado el doctor.
+
+A distancia poco se puede realizar, pero aunque traer a los enfermos a España es mucho más complicado y caro, la actividad «tiene que seguir», siempre con casos que tienen solución para optimizar los recursos de la fundación que lleva su nombre.</rNews:articleBody>
+        <rNews:dateModified>15/03/2021 08:33h</rNews:dateModified>
+        <rNews:headline>Pedro Cavadas, tras vacunarse del coronavirus: «Si encierras a la gente en su casa tienes incidencia cero, pero es irreal»</rNews:headline>
+        <rNews:url>https://www.abc.es/espana/comunidad-valenciana/abci-pedro-cavadas-sobre-coronavirus-si-encierras-gente-casa-tienes-incidencia-cero-pero-irreal-202103121436_noticia.html#vca=mod-lo-mas-p2&amp;vmc=leido&amp;vso=comunidad-valenciana&amp;vli=noticia.foto.local&amp;vtm_loMas=si&amp;ref=https:%2F%2Fwww.abc.es%2Fespana%2Fcomunidad-valenciana%2Fabci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_7">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19"/>
+        <rNews:associatedArticle rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC"/>
+        <rNews:dateModified>05/03/2021 12:13h</rNews:dateModified>
+        <rNews:inLanguage>Spanish</rNews:inLanguage>
+        <rNews:url>https://www.abc.es/espana/comunidad-valenciana/abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902_noticia.html</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_8">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico"/>
+        <rNews:editor rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais"/>
+        <rNews:alternativeHeadline>En 2020 han sido asesinados en todo el mundo 50 informadores, según Reporteros sin Fronteras</rNews:alternativeHeadline>
+        <rNews:datePublished>29 dic 2020 - 16:27 UTC+1</rNews:datePublished>
+        <rNews:headline>México, el país más peligroso para los periodistas</rNews:headline>
+        <rNews:url>https://elpais.com/internacional/2020-12-29/mexico-el-pais-mas-peligroso-para-los-periodistas.html?rel=mas</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_9">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid"/>
+        <rNews:about rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG"/>
+        <rNews:associatedMedia rdf:resource="https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg"/>
+        <rNews:provider rdf:resource="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo"/>
+        <rNews:alternativeHeadline>El Atlético de Madrid ya conoce el colegiado que le pitará ante el Chelsea.</rNews:alternativeHeadline>
+        <rNews:articleBody>El italiano Daniele Orsato, que dirigió la última final Bayern Múnich-PSG, dirigirá este miércoles el encuentro entre el Chelsea y el Atlético de Madrid, correspondiente a la vuelta de octavos de final de la Liga de Campeones.
+
+Nacido el 24 de noviembre de 1975 e internacional desde 2010, estará auxiliado en las bandas por Alessandro Giallatini y Fabiano Preti; el cuarto árbitro será Daniele Doveri; y los encargados del VAR Massimiliano Irrati y Paolo Valeri.
+
+Es un árbitro de buen recuerdo tanto para el Atlético de Madrid como para el Chelsea. El cuadro rojiblanco ganó en los campos del Austria Viena (0-3, temporada 2013/14) y Rostov (0-1, campaña 2016/17) y al Borussia Dortmund en Madrid (2-0, 2018/19) en la fase de grupos, y en Eindhoven ante el PSV, en los octavos de la edición 2015/16, igualó a cero.
+
+Al Chelsea le arbitró en el empate en Maribor en la fase de grupos de la Champions 2014/15 (1-1), el triunfo en Praga ante el Sparta en la Liga Europa (0-1) y fue el cuarto colegiado de Gianluca Rocchi en la final de la Liga Europa 2018/19 en la que se impuso al Arsenal por 4-1 en el Olímpico de Baku.
+
+El encuentro Bayern Múnich-Lazio lo arbitrará el rumano Istvan Kovacs. Vasile Florin Marinescu y Ovidiu Artene serán los jueces de línea, Ovidiu Hategan el cuarto colegiado y los encargados del VAR serán los polacos Pawel Gil y Tomasz Kwiatkowski.</rNews:articleBody>
+        <rNews:datePublished>15-03-2021 10:54</rNews:datePublished>
+        <rNews:headline>Buenos presagios sobre el árbitro que pitará la ‘final’ de Londres</rNews:headline>
+        <rNews:url>https://www.mundodeportivo.com/futbol/atletico-madrid/20210315/492713142774/buenos-presagios-sobre-el-arbitro-que-pitara-la-final-de-londres.html</rNews:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG&#45;&#45;620x349@abc.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4 -->
+
+    <owl:NamedIndividual rdf:about="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#VideoObject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg">
+        <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
