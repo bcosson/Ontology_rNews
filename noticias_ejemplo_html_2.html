@@ -1,67 +1,208 @@
-﻿<!DOCTYPE html
+<!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="http://www.w3.org/1999/xhtml" version="XHTML+RDFa 1.0">
    <head>
       <meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8"></meta>
-      <title>Rhizomik - ReDeFer - RDF2HTML</title>
-      <link href="/style/rhizomer.css" type="text/css" rel="stylesheet"></link>
+      <title>Noticias_HTML</title>
+      
+
+      <style>
+         table 
+         {
+            background-color: #32424f;
+            border: 2px solid #ff0000;
+            padding: 2px;
+         }
+         th,tr
+
+         td
+         {
+            background-color: #767bf3;
+            border: 0.5px solid #000000;
+            padding: 2px;
+            text-align: center;
+         }
+
+
+         .Noticia
+         {
+
+            font-size:35px;
+            font-weight:600;
+            color : rgb(0, 8, 255);
+         }
+         .Row
+         {
+            text-decoration:none;
+            font-size:25px;
+            font-weight:600;
+            color : rgb(182, 19, 19);
+         }
+         .Headline
+         {
+            text-decoration:none;
+            color:rgb(0, 0, 0);
+            font-size:18px;
+            font-weight:600;
+
+         }
+         .Alternative_headline
+         {
+            font-size:15px;
+            font-weight:500;
+
+         }
+         .Provider
+         {
+            color: #000000;
+            text-decoration:none;
+            font-size:15px;
+            font-weight:500;
+
+         }
+         .Date_published
+         {
+            font-size:15px;
+            font-weight:500;
+         }
+         .Person
+         {
+            text-decoration:none;
+            font-size:15px;
+            font-weight:500;
+            color: #000000;
+         }
+         .Concept
+         {
+            text-decoration:none;
+            font-size:15px;
+            font-weight:600;
+            color: #000000;
+
+         }
+         .Article_body
+         {
+            text-decoration:none;
+            font-size:13px;
+            font-weight:500;
+            color: #000000;
+
+         }
+         
+         </style>
+
+
+
+
    </head>
    <body>
+
+
+
+
+
+
+      
       <div xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rNews="http://iptc.org/std/rNews/2011-10-07#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="rdf2html">
+
+            <table  about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1" typeof="owl:Ontology">
+
+
+                  <td width=250> <a href="http://www.w3.org/2002/07/owl#Ontology" title="Browse http://www.w3.org/2002/07/owl#Ontology">Ontology</a></td>
+               
+                  <td width = 500> <a  href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1">noticias ej1</a></td>
+
+                  
+                  <!--<td class="http://www.w3.org/2002/07/owl#imports">-->
+
+                  <td width = 250><a  href="http://www.w3.org/2002/07/owl#imports" title="Browse http://www.w3.org/2002/07/owl#imports">see imports</a></td>
+                  
+                  
+                  <!--<td><div class="property-object" rel="owl:imports"><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#" title="Browse http://iptc.org/std/rNews/2011-10-07#"></a></div></td>-->
+
+
+ 
+           
+         <tr><td colspan="3" height=100  >  TRABAJO DE BASTIAN COSSON</td>  </tr>
+         </table>
+
+
+
+
+
+
+         <!-- #################################### Noticia_0 ############################################ -->
          <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1" typeof="owl:Ontology">
+         <table>
                <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1">noticias ej1</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://www.w3.org/2002/07/owl#Ontology" title="Browse http://www.w3.org/2002/07/owl#Ontology">Ontology</a></th>
-               </tr>
-               <tr class="http://www.w3.org/2002/07/owl#imports">
-                  <td><a class="browse" href="http://www.w3.org/2002/07/owl#imports" title="Browse http://www.w3.org/2002/07/owl#imports">imports</a></td>
-                  <td>
-                     <div class="property-object" rel="owl:imports"><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#" title="Browse http://iptc.org/std/rNews/2011-10-07#"></a></div>
-                  </td>
-               </tr>
-            </table>
-         </div>
-         <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_0" typeof="rNews:NewsItem">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_0" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_0">Noticia 0</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
+                  <th colspan="2" width=1000><a class=Noticia href="https://www.la-razon.com/ciudades/2021/03/09/mujer-atacada-por-perros-tiene-al-menos-25-lesiones-zoonosis-captura-a-10-canes-callejeros/" title="click to read the article">Noticia 0</a>
                   </th>
+
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health" typeof="rNews:Concept">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health">Health</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Concept" title="Browse http://iptc.org/std/rNews/2011-10-07#Concept">Concept</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros" typeof="rNews:Concept">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros">Perros</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Concept" title="Browse http://iptc.org/std/rNews/2011-10-07#Concept">Concept</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
+                             
+               
+               <!-- HEADLINE --> 
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                     <td> <a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                         <td property="rNews:headline" content="Mujer atacada por perros tiene al menos 25 lesiones, Zoonosis captura a 10 canes callejeros">
+                              <div class="Headline">Mujer atacada por perros tiene al menos 25 lesiones, Zoonosis captura a 10 canes callejeros</div>
+                         </td>
+                  </tr>
+
+                  <!-- ALTERNATIVE_HEADLINE --> 
                <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">alternativeHeadline</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">AlternativeHeadline</a></td>
                   <td property="rNews:alternativeHeadline" content="Según Sedes-Cochabamba, el sector Sur de la ciudad tiene la mayor cantidad de casos de rabia canina del Departamento.">
-                     <div class="property-object">Según Sedes-Cochabamba, el sector Sur de la ciudad tiene la mayor cantidad de casos de rabia canina del Departamento.</div>
+                     <div class="Alternative_headline">Según Sedes-Cochabamba, el sector Sur de la ciudad tiene la mayor cantidad de casos de rabia canina del Departamento.</div>
                   </td>
                </tr>
+
+
+               <!-- PROVIDER --> 
+               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
+                  <td><a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">La Razon</a>
+                              </td>
+               
+               </tr>
+
+               <!-- DATE_PUBLISHED --> 
+               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">Date</a></td>
+                  <td property="rNews:datePublished" content="9 de marzo de 2021 / 19:16">
+                     <div class="Date_published">9 de marzo de 2021 / 19:16</div>
+                  </td>
+               </tr>
+
+               <!-- EDITOR --> 
+               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza" typeof="rNews:Person">
+                           
+                           <a class="Person" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza">Paulo Cuiza</a> 
+                              </td>
+
+               </tr>
+
+
+               <!-- ABOUTS -->
+               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+                  
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health" typeof="rNews:Concept">
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Health">Health</a>
+                              <a> / </a>
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Perros">Perros</a>
+                              </td>
+               </tr>
+               
+
+               <!-- ARTICLE_BODY --> 
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">Body</a></td>
                   <td property="rNews:articleBody" content="La mujer de 57 años atacada el lunes por perros en un barrio de Cochabamba tiene al menos 25 lesiones. La Dirección de Zoonosis capturó a 10 canes callejeros en la zona donde ocurrió el hecho, grabado en un video de seguridad.&#xA;&#xA;Una de las hijas de la afectada declaró a la red Bolivisión que su mamá tiene al menos 25 heridas en el cuerpo producto de las mordeduras en piernas, brazos y manos, por lo que exigió a los dueños de los animales que corran con los gastos de curación y rehabilitación.&#xA;&#xA;«El dueño del can no se ha hecho cargo, no sabía dónde estaba, no nos han preguntado tampoco como estamos haciendo, no nos han dicho absolutamente nada. El caballero también se fue por otro lado, tampoco me dijo cómo vamos hacer o cómo vamos a arreglar», informó.&#xA;&#xA;Según informó la red Unitel, los dueños del perro que inició el ataque se vieron sorprendidos por el hecho. Aseguraron que el can salió cuando abrieron la puerta para ir a echar basura. “Es bien tierno el perrito, la verdad; hasta baila, le gusta bailar pero no sé… me he encontrado y me ha seguido el perrito, no es agresivo”.&#xA;&#xA;&#xA;Ataque de los perros a la mujer en Cochabamba. Video de Seguridad difundido por Red Uno&#xA;&#xA;De acuerdo a las imágenes de la cámara de seguridad, se observa a un can que comienza a ladrar a la mujer de 57 años y posteriormente la ataca. Otros perros se suman al ataque, provocan su caída y la muerden en las piernas. La llegada de otros vecinos hace que los canes se alejen de su víctima.&#xA;&#xA;La Unidad de Zoonosis del Municipio de Cochabamba capturó este martes a 10 canes en la zona de Pucara, al sur de Cochabamba, lugar donde ocurrió el hecho, mientras que el responsable de Epidemiología, del Servicio Departamental de Salud (Sedes), Yercin Mamani, explicó que se investiga el caso y se procedió a vacunar contra la rabia a la mujer atacada por los canes.&#xA;&#xA;Según el Sedes, el sector Sur de la ciudad tiene la mayor cantidad de casos de rabia canina del Departamento.">
-                     <div class="property-object">La mujer de 57 años atacada el lunes por perros en un barrio de Cochabamba tiene al menos 25 lesiones. La Dirección de Zoonosis
+                     <div class="Article_body">La mujer de 57 años atacada el lunes por perros en un barrio de Cochabamba tiene al menos 25 lesiones. La Dirección de Zoonosis
                         capturó a 10 canes callejeros en la zona donde ocurrió el hecho, grabado en un video de seguridad.
                         
                         Una de las hijas de la afectada declaró a la red Bolivisión que su mamá tiene al menos 25 heridas en el cuerpo producto de
@@ -91,110 +232,109 @@
                      </div>
                   </td>
                </tr>
+
+
+               <!-- ASSOCIATED_MEDIA --> 
                <tr class="http://iptc.org/std/rNews/2011-10-07#associatedMedia">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg" typeof="rNews:ImageObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg">9.jpg</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#ImageObject" title="Browse http://iptc.org/std/rNews/2011-10-07#ImageObject">ImageObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4" typeof="rNews:VideoObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4">WhatsApp-Video-2021-03-09-at-18.27.07.mp4</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#VideoObject" title="Browse http://iptc.org/std/rNews/2011-10-07#VideoObject">VideoObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">Associated Medias</a></td>
+
+                        <td about="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg" typeof="rNews:ImageObject">
+                               <a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/09/23/9.jpg">9.jpg</a>
+                        
+                              <a> and </a>
+                        
+                              <a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/09/23/WhatsApp-Video-2021-03-09-at-18.27.07.mp4">WhatsApp-Video-2021-03-09-at-18.27.07.mp4</a>
+                        </td>
+
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">datePublished</a></td>
-                  <td property="rNews:datePublished" content="9 de marzo de 2021 / 19:16">
-                     <div class="property-object">9 de marzo de 2021 / 19:16</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:editor">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Paulo_Cuiza">Paulo Cuiza</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Mujer atacada por perros tiene al menos 25 lesiones, Zoonosis captura a 10 canes callejeros">
-                     <div class="property-object">Mujer atacada por perros tiene al menos 25 lesiones, Zoonosis captura a 10 canes callejeros</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" typeof="rNews:Organization">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">La Razon</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Organization" title="Browse http://iptc.org/std/rNews/2011-10-07#Organization">Organization</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
+
+
+
+
+               <!-- URL --> 
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.la-razon.com/ciudades/2021/03/09/mujer-atacada-por-perros-tiene-al-menos-25-lesiones-zoonosis-captura-a-10-canes-callejeros/">
                      <div class="property-object"><a class="browse" href="https://www.la-razon.com/ciudades/2021/03/09/mujer-atacada-por-perros-tiene-al-menos-25-lesiones-zoonosis-captura-a-10-canes-callejeros/" title="Browse https://www.la-razon.com/ciudades/2021/03/09/mujer-atacada-por-perros-tiene-al-menos-25-lesiones-zoonosis-captura-a-10-canes-callejeros/">https://www.la-razon.com/ ciudades/ 2021/ 03/ 09/ mujer-atacada-por-perros-tiene-al-menos-25-lesiones-zoonosis-captura-a-10-canes-callejeros/
                            </a></div>
                   </td>
-               </tr>
-            </table>
+               </tr> 
+         </table>
+
          </div>
+
+      
+         <!-- #################################### Noticia_1 ############################################ -->
+
+
+
          <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_1" typeof="owl:NamedIndividual">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_1" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_1">Noticia 1</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a></div>
-                  </th>
+            <table>
+                  <tr>
+                     <th colspan="2" width=1000><a class=Noticia href="https://www.la-razon.com/ seguridad-ciudadana/ 2021/ 03/ 12/ accidente-de-bus-deja-tres-muertos-y-15-heridos-en-la-ruta-cochabamba-santa-cruz/" title="click to read the article">Noticia 1</a>
+                     </th>
+   
+                  </tr>
+
+                  <!--   HEADLINE   -->
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                     <td property="rNews:headline" content="Seguridad Ciudadana">
+                        <div class="Headline">Seguridad Ciudadana</div>
+                     </td>
+                  </tr>
+
+               <!--   ADDITIONAL NAME   -->
+               <tr class="http://iptc.org/std/rNews/2011-10-07#additionalName">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#additionalName" title="Browse http://iptc.org/std/rNews/2011-10-07#additionalName">Additional Name</a></td>
+                  <td property="rNews:additionalName" content="Accidente de bus deja tres muertos y 15 heridos en la ruta Cochabamba-Santa Cruz">
+                     <div class="Alternative_headline">Accidente de bus deja tres muertos y 15 heridos en la ruta Cochabamba-Santa Cruz</div>
+                  </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
+
+               <!--   PROVIDER   -->
+               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
                   <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz" typeof="rNews:Place">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz">La Paz</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Place" title="Browse http://iptc.org/std/rNews/2011-10-07#Place">Place</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
+                     <div class="property-object" rel="rNews:provider"><a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">La Razon</a></div>
+                  </td>
+               </tr>
+
+               <!-- DATE -->
+               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">Date</a></td>
+                  <td property="rNews:datePublished" content="12 de marzo de 2021 / 11:50">
+                     <div class="Date_published">12 de marzo de 2021 / 11:50</div>
+                  </td>
+               </tr>
+
+               <!-- ABOUTS -->
+               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+                           
+                     <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz" typeof="rNews:Place">
+                        <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Paz">La Paz</a>
+                     </td>
+
+               </tr>
+
+
+               <!-- DESCRIPTION -->
+               <tr class="http://iptc.org/std/rNews/2011-10-07#description">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#description" title="Browse http://iptc.org/std/rNews/2011-10-07#description">Description</a></td>
+                  <td property="rNews:description" content="Se presume exceso de velocidad del vehículo. Según un informe técnico preliminar, colisionó con un promontorio de tierra y quedó al costado de la carretera.">
+                     <div class="Alternative_headline">Se presume exceso de velocidad del vehículo. Según un informe técnico preliminar, colisionó con un promontorio de tierra y
+                        quedó al costado de la carretera.
                      </div>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#additionalName">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#additionalName" title="Browse http://iptc.org/std/rNews/2011-10-07#additionalName">additionalName</a></td>
-                  <td property="rNews:additionalName" content="Accidente de bus deja tres muertos y 15 heridos en la ruta Cochabamba-Santa Cruz">
-                     <div class="property-object">Accidente de bus deja tres muertos y 15 heridos en la ruta Cochabamba-Santa Cruz</div>
-                  </td>
-               </tr>
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">Body</a></td>
                   <td property="rNews:articleBody" content="Un bus interdepartamental de la empresa Dorado, que realizaba la ruta Cochabamba- Santa Cruz, protagonizó este viernes un accidente de tránsito que dejó al menos tres fallecidos y 15 heridos, informó el subcomandante departamental de la Policía de Cochabamba, Jhonny Corrales.&#xA;&#xA;“El hecho ocurrió en el kilómetro 27 de la carretera Cochabamba-Santa Cruz, en el sector de Tutimayu a las 06.10, por el impacto fallecieron dos personas mayores y un menor”, informó a radio Éxito.&#xA;&#xA;Los heridos fueron llevados al hospital México de Sacaba y a la clínica Arévalo. Imágenes en redes sociales dan cuenta que uniformados acudieron al sector para socorrerlos, algunos quedaron atrapados entre los fierros retorcidos.&#xA;&#xA;Se presume exceso de velocidad del vehículo. Según informe técnico preliminar, el motorizado colisionó con un promontorio de tierra y quedó al costado de la carretera.">
-                     <div class="property-object">Un bus interdepartamental de la empresa Dorado, que realizaba la ruta Cochabamba- Santa Cruz, protagonizó este viernes un
+                     <div class="Article_body">Un bus interdepartamental de la empresa Dorado, que realizaba la ruta Cochabamba- Santa Cruz, protagonizó este viernes un
                         accidente de tránsito que dejó al menos tres fallecidos y 15 heridos, informó el subcomandante departamental de la Policía
                         de Cochabamba, Jhonny Corrales.
                         
@@ -209,90 +349,96 @@
                      </div>
                   </td>
                </tr>
+
+
+
+               <!--  ASSOCIATED MEDIA  -->
                <tr class="http://iptc.org/std/rNews/2011-10-07#associatedMedia">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg" typeof="rNews:ImageObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg">FOTO.jpg</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#ImageObject" title="Browse http://iptc.org/std/rNews/2011-10-07#ImageObject">ImageObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">Associated Medias</a></td>
+                        
+                     <td about="https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg" typeof="rNews:ImageObject">
+                        <a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/12/15/FOTO.jpg">FOTO.jpg</a>
+                     </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">datePublished</a></td>
-                  <td property="rNews:datePublished" content="12 de marzo de 2021 / 11:50">
-                     <div class="property-object">12 de marzo de 2021 / 11:50</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#description">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#description" title="Browse http://iptc.org/std/rNews/2011-10-07#description">description</a></td>
-                  <td property="rNews:description" content="Se presume exceso de velocidad del vehículo. Según un informe técnico preliminar, colisionó con un promontorio de tierra y quedó al costado de la carretera.">
-                     <div class="property-object">Se presume exceso de velocidad del vehículo. Según un informe técnico preliminar, colisionó con un promontorio de tierra y
-                        quedó al costado de la carretera.
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Seguridad Ciudadana">
-                     <div class="property-object">Seguridad Ciudadana</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">La Razon</a></div>
-                  </td>
-               </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.la-razon.com/seguridad-ciudadana/2021/03/12/accidente-de-bus-deja-tres-muertos-y-15-heridos-en-la-ruta-cochabamba-santa-cruz/">
                      <div class="property-object"><a class="browse" href="https://www.la-razon.com/seguridad-ciudadana/2021/03/12/accidente-de-bus-deja-tres-muertos-y-15-heridos-en-la-ruta-cochabamba-santa-cruz/" title="Browse https://www.la-razon.com/seguridad-ciudadana/2021/03/12/accidente-de-bus-deja-tres-muertos-y-15-heridos-en-la-ruta-cochabamba-santa-cruz/">https://www.la-razon.com/ seguridad-ciudadana/ 2021/ 03/ 12/ accidente-de-bus-deja-tres-muertos-y-15-heridos-en-la-ruta-cochabamba-santa-cruz/
                            </a></div>
                   </td>
                </tr>
+
+
             </table>
          </div>
+
+
+
+
+
+
+
+ <!-- #################################### Noticia_2 ############################################ -->
          <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_2" typeof="rNews:NewsItem">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_2" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_2">Noticia 2</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                  </th>
-               </tr>
+            <table>
+                  <tr>
+                     <th colspan="2" width=1000><a class=Noticia href="https://www.abc.es/ espana/ comunidad-valenciana/ abci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909 noticia.html" title="click to read the article">Noticia 2</a>
+                     </th>
+
+                  </tr>
+
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                     <td property="rNews:headline" content="Un pueblo de Castellón busca familias con niños a cambio de casa gratis y trabajo">
+                        <div class="Headline">Un pueblo de Castellón busca familias con niños a cambio de casa gratis y trabajo</div>
+                     </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
+
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" typeof="rNews:Organization">
+                              <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">ABC</a> 
+                        </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#dateModified">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#dateModified" title="Browse http://iptc.org/std/rNews/2011-10-07#dateModified">Date</a></td>
+                     <td property="rNews:dateModified" content="15/03/2021 07:59h">
+                        <div class="Date_published">15/03/2021 07:59h</div>
+                     </td>
+                  </tr>
+
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+
+
+                           <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros" typeof="rNews:Person">
+                                 <a class="Person" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros">Alberto Caparros</a>
+                           </td>
+                  </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec" typeof="rNews:Place">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec">La Torre d en Domenec</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Place" title="Browse http://iptc.org/std/rNews/2011-10-07#Place">Place</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia" typeof="rNews:Place">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia">Valencia</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Place" title="Browse http://iptc.org/std/rNews/2011-10-07#Place">Place</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+
+
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia" typeof="rNews:Place">
+                           <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Torre_d_en_Domenec">La Torre d en Domenec</a>    
+                           <a> / </a>
+                           <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Valencia">Valencia</a> 
+                        </td>
                </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">Body</a></td>
                   <td property="rNews:articleBody" content="Si está dispuesto a cambiar de vida en un pequeño pueblo de la provincia de Castellón que ofrece vivienda gratis y trabajo garantizado a sus nuevos habitantes guarde este correo electrónico: info@latorredendomenec.es&#xA;&#xA;El Ayuntamiento de La Torre d’en Doménec, una localidad castellonense con apenas 160 vecinos censados, busca familias con niños en edad escolar con el objetivo de poder reabrir el colegio del pueblo, cerrado desde hace ocho años. Para ello, el Consistorio que preside Héctor Prats, del Partido Popular, ofrece una casa y la gestión del bar municipal, que cerró sus puertas en enero de este año.&#xA;&#xA;&#xA;La Torre d’en Doménec sigue los pasos de otros municipios de la España vaciada como el de Zucaina, también en la provincia de Castellón, que logró reactivar su escuela captando a nuevos vecinos con una oferta irrestible: casa gratuita y trabajo garantizado.&#xA;&#xA;En el caso de la Torre d’en Doménec, en la actualidad hay tres niños residiendo que se encuentran en edad escolar. Con otros tres, el municipio podría volver a abrir su colegio. El Ayuntamiento se ha puesto manos a la obra tras consultar con la Dirección Territorial de Educación. La escuela de la Torre d’en Doménec forma parte de un Colegio Rural Agrupado junto a los de Vilanova d’Alcolea, Benlloc, y La Pobla Tornesa. Sin embargo, es la única que está cerrada por falta de alumnos.&#xA;&#xA;La Torre d’en Doménec sigue los pasos de otros municipios de la España vaciada como el de Zucaina, también en la provincia de Castellón, que logró reactivar su escuela captando a nuevos vecinos con una oferta irrestible: casa gratuita y trabajo garantizado.&#xA;&#xA;En el caso de la Torre d’en Doménec, en la actualidad hay tres niños residiendo que se encuentran en edad escolar. Con otros tres, el municipio podría volver a abrir su colegio. El Ayuntamiento se ha puesto manos a la obra tras consultar con la Dirección Territorial de Educación. La escuela de la Torre d’en Doménec forma parte de un Colegio Rural Agrupado junto a los de Vilanova d’Alcolea, Benlloc, y La Pobla Tornesa. Sin embargo, es la única que está cerrada por falta de alumnos.&#xA;&#xA;La Torre d’en Doménec está situado en la comarca de la Plana Alta y es un pueblo cuya economía gira en torno a la agricultura y la ganadería, así como en el turismo de los «veraneantes», como tantos otros pueblos de la España vaciada. El municipio está a apenas un cuarto de hora del Mar Mediterráneo y a venticinco minutos de la capital de la provincia.&#xA;Municipio libre de coronavirus&#xA;&#xA;Además, es una de las pocas localidades de la Comunidad Valenciana que se pueden considerar libre de coronavirus. De hecho, en más de un año de pandemia solo ha registrado un caso positivo de Covid-19 y no consta ni ningún fallecimiento, de acuerdo con la información suministrada por la Conselleria de Sanidad de la Generalitat.&#xA;&#xA;Sin escuela y sin bar, el Ayuntamiento pretende lograr reto de cumplir su doble objetivo y se marca como plazo que antes del próximo verano esté finalizado el proceso de selección de las familias interesadas, que pueden hacer llegar su petición a través del correo electrónico habilitado por el Consistorio: info@latorredendomenec.es">
-                     <div class="property-object">Si está dispuesto a cambiar de vida en un pequeño pueblo de la provincia de Castellón que ofrece vivienda gratis y trabajo
+                     <div class="Article_body">Si está dispuesto a cambiar de vida en un pequeño pueblo de la provincia de Castellón que ofrece vivienda gratis y trabajo
                         garantizado a sus nuevos habitantes guarde este correo electrónico: info@latorredendomenec.es
                         
                         El Ayuntamiento de La Torre d’en Doménec, una localidad castellonense con apenas 160 vecinos censados, busca familias con
@@ -334,62 +480,22 @@
                      </div>
                   </td>
                </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#associatedMedia">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg" typeof="rNews:ImageObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg" title="Browse https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg">torre-endomenec-k4fG--620x349@abc.jpg</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#ImageObject" title="Browse http://iptc.org/std/rNews/2011-10-07#ImageObject">ImageObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#dateModified">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#dateModified" title="Browse http://iptc.org/std/rNews/2011-10-07#dateModified">dateModified</a></td>
-                  <td property="rNews:dateModified" content="15/03/2021 07:59h">
-                     <div class="property-object">15/03/2021 07:59h</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:editor">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros">Alberto Caparros</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Un pueblo de Castellón busca familias con niños a cambio de casa gratis y trabajo">
-                     <div class="property-object">Un pueblo de Castellón busca familias con niños a cambio de casa gratis y trabajo</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" typeof="rNews:Organization">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">ABC</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Organization" title="Browse http://iptc.org/std/rNews/2011-10-07#Organization">Organization</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">Associated Medias</a></td>
+                            <td>
+
+                              <a class="browse" href="https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg" title="Browse https://static2.abc.es/media/espana/2021/03/14/torre-endomenec-k4fG--620x349@abc.jpg">torre-endomenec-k4fG--620x349@abc.jpg</a>
+                           </td>
+
+
+
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.abc.es/espana/comunidad-valenciana/abci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html">
                      <div class="property-object"><a class="browse" href="https://www.abc.es/espana/comunidad-valenciana/abci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html" title="Browse https://www.abc.es/espana/comunidad-valenciana/abci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html">https://www.abc.es/ espana/ comunidad-valenciana/ abci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909
                            noticia.html</a></div>
@@ -397,71 +503,77 @@
                </tr>
             </table>
          </div>
-         <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_3" typeof="owl:NamedIndividual">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_3" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_3">Noticia 3</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a></div>
-                  </th>
-               </tr>
+
+
+
+
+ <!-- #################################### Noticia_3 ############################################ -->
+
+            <div class="description">
+               <table>
+                     <tr>
+                        <th colspan="2" width=1000><a class=Noticia href="https://www.mundodeportivo.com/ futbol/ fc-barcelona/ 20210315/ 492704622319/ ocasion-de-oro-del-barca-ante-el-huesca-para-cercar-al-atletico.html" title="click to read the article">Noticia 3</a>
+                        </th>
+
+                     </tr>
+
+
+                     <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                        <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                        <td property="rNews:headline" content="Ocasión de oro del Barça ante el Huesca para cercar al Atlético">
+                           <div class="Headline">Ocasión de oro del Barça ante el Huesca para cercar al Atlético</div>
+                        </td>
+                     </tr>
+      
+      
+      
+                     <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                        <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
+ 
+                              <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo" typeof="rNews:Organization">
+   
+                                    <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo">Mundo Deportivo</a>
+                     
+                                 </td>
+                     </tr>
+
+                     <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+                        <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+
+                              <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole" typeof="rNews:Person">
+                                    <a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole">Sergi Sole</a>
+                                 </td>
+                     </tr>
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi">Messi</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">,</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid" typeof="rNews:Place">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid">Madrid</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Place" title="Browse http://iptc.org/std/rNews/2011-10-07#Place">Place</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">,</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca" typeof="rNews:Organization">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca">Barca</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Organization" title="Browse http://iptc.org/std/rNews/2011-10-07#Organization">Organization</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">,</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG" typeof="rNews:Organization">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG">PSG</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Organization" title="Browse http://iptc.org/std/rNews/2011-10-07#Organization">Organization</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte" typeof="rNews:Concept">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte">Deporte</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Concept" title="Browse http://iptc.org/std/rNews/2011-10-07#Concept">Concept</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+
+
+
+                           <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte" typeof="rNews:Concept">
+                              
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Messi">Messi</a>
+                              <a> / </a>
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid">Madrid</a>
+                              <a> / </a>
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Barca">Barca</a>
+                              <a> / </a>
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG">PSG</a>
+                              <a> / </a>
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte">Deporte</a>
+                           </td>
                </tr>
+
+
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">Body</a></td>
                   <td property="rNews:articleBody" content="Cuando acabó el año 2020, tras un empate cedido ante el Eibar en el Camp Nou (1-1), ni el más optimista de los culés podía imaginar un cambio radical del rumbo del Barça ni un vuelco en la clasificación en apenas dos meses y medio. El conjunto de Ronald Koeman era octavo y estaba a 10 puntos del Atlético de Madrid, con un partido menos de los colchoneros. El Real Madrid era segundo con cinco puntos más que los azulgrana. Planeaba incluso por Barcelona, que no en el vestuario barcelonista, el temor a no clasificarse para la próxima edición de la Champions League.&#xA;&#xA;La realidad es hoy diametralmente distinta. Aunque el Barça ya no está vivo en Europa por culpa de un 1-4 en la ida ante el PSG que no pudo levantar en París pese a un partidazo, un triunfo hoy (21 h./Movistar LaLiga) ante el Huesca en el Camp Nou dejaría a los azulgrana a un paso de depender de sí mismos para recuperar el título liguero dos años después. En caso de ganar, el liderato del Atlético quedaría a sólo cuatro puntos a falta de 11 jornadas a igualdad ya de encuentros disputados y con la visita de los rojiblancos al Estadi en la 35ª jornada el 9 de mayo, quién sabe si con algo de público si el CSD abre algo el grifo como están pidiendo los clubs. &#xA;&#xA;El empate atlético (0-0) en Getafe concede una ocasión de oro más al Barça, que suma 16 jornadas invicto con sólo tres empates cedidos, todos en casa: 2-2 frente al Valencia, 1-1 ante el Eibar y 1-1 contra el Cádiz. Son 42 puntos de 48 posibles que se acercan a los 45 de 48 que logró el Atlético (sólo perdió por 2-0 ante el Madrid) tras ceder dos empates en sus primeros tres envites. Sin embargo, en las últimas ocho jornadas no ha enlazado dos victorias sumando 13 puntos de 24. A la espera de si remonta el miércoles el 0-1 ante el Chelsea, el calendario colchonero parece más complicado que el del Barça con visitas a Sevilla, Betis y Athletic además del Camp Nou.&#xA;&#xA;Y no hay que olvidar al Madrid, sólo dos puntos por debajo del Barça (si hoy gana) tras el 2-1 en el 91’ ante el Elche a tres jornadas de un Clásico en Madrid que se presume mucho más decisivo que semanas atrás. Haciendo suyo el “partido a partido” de Diego Pablo Simeone, Ronald Koeman antepone el día a día pero vencer al Huesca supondría meterse aún más de lleno en el pulso por LaLiga con la visita a Anoeta del próximo domingo (21.00 h.) como otro punto de inflexión para afrontar el parón de dos semanas previo al duelo en casa ante el Valladolid y el mencionado Clásico en el feudo merengue.&#xA;&#xA;El Huesca de Pacheta, colista a cuatro puntos de la salvación, ya cayó el 3 de enero en El Alcoraz (0-1) ante un buen Barça que no ha dejado de crecer con el único borrón del primer asalto contra el PSG. Los oscenses son el peor visitante con una victoria fuera y sólo nueve puntos pero hace un mes pusieron contra las cuerdas al Madrid pese a acabar perdiendo (1-2). Razón de más para que Messi y compañía no fallen. Otro tropiezo como el 1-1 ante el Cádiz sería imperdonable.">
-                     <div class="property-object">Cuando acabó el año 2020, tras un empate cedido ante el Eibar en el Camp Nou (1-1), ni el más optimista de los culés podía
+                     <div class="Article_body">Cuando acabó el año 2020, tras un empate cedido ante el Eibar en el Camp Nou (1-1), ni el más optimista de los culés podía
                         imaginar un cambio radical del rumbo del Barça ni un vuelco en la clasificación en apenas dos meses y medio. El conjunto de
                         Ronald Koeman era octavo y estaba a 10 puntos del Atlético de Madrid, con un partido menos de los colchoneros. El Real Madrid
                         era segundo con cinco puntos más que los azulgrana. Planeaba incluso por Barcelona, que no en el vestuario barcelonista, el
@@ -494,172 +606,157 @@
                      </div>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:editor">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Sergi_Sole">Sergi Sole</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Ocasión de oro del Barça ante el Huesca para cercar al Atlético">
-                     <div class="property-object">Ocasión de oro del Barça ante el Huesca para cercar al Atlético</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo" typeof="rNews:Organization">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo">Mundo Deportivo</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Organization" title="Browse http://iptc.org/std/rNews/2011-10-07#Organization">Organization</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.mundodeportivo.com/futbol/fc-barcelona/20210315/492704622319/ocasion-de-oro-del-barca-ante-el-huesca-para-cercar-al-atletico.html">
                      <div class="property-object"><a class="browse" href="https://www.mundodeportivo.com/futbol/fc-barcelona/20210315/492704622319/ocasion-de-oro-del-barca-ante-el-huesca-para-cercar-al-atletico.html" title="Browse https://www.mundodeportivo.com/futbol/fc-barcelona/20210315/492704622319/ocasion-de-oro-del-barca-ante-el-huesca-para-cercar-al-atletico.html">https://www.mundodeportivo.com/ futbol/ fc-barcelona/ 20210315/ 492704622319/ ocasion-de-oro-del-barca-ante-el-huesca-para-cercar-al-atletico.html</a></div>
                   </td>
                </tr>
             </table>
          </div>
-         <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_4" typeof="rNews:NewsItem">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_4" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_4">Noticia 4</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                  </th>
-               </tr>
+
+
+
+
+
+
+
+
+ <!-- #################################### Noticia_4 ############################################ -->
+
+ <div class="description">
+   <table>
+         <tr>
+            <th colspan="2" width=1000><a class=Noticia href="https://elpais.com/ planeta-futuro/ 2021-03-08/ tengo-miedo.html" title="click to read the article">Noticia 4</a>
+            </th>
+
+         </tr>
+
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+            <td property="rNews:headline" content="Tengo miedo">
+               <div class="Headline">Tengo miedo</div>
+            </td>
+         </tr>
+
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
+                  <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais" typeof="rNews:Organization">
+                     
+                        <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais">El Pais</a>
+            </td>
+         </tr>
+
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">Date</a></td>
+            <td property="rNews:datePublished" content="10 mar 2021 - 00:10 UTC+1">
+               <div class="Date_published">10 mar 2021 - 00:10 UTC+1</div>
+            </td>
+         </tr>
+
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+
+                  <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar" typeof="rNews:Person">
+                  
+                        <a class="Person" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar">Carmen Valeria Escobar</a>
+                  </td>
+         </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa" typeof="rNews:Concept">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa">Libertad de prensa</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Concept" title="Browse http://iptc.org/std/rNews/2011-10-07#Concept">Concept</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa" typeof="rNews:Concept">
+                           
+                              <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_prensa">Libertad de prensa</a>
                   </td>
                </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#associatedMedia">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg" typeof="rNews:ImageObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg" title="Browse https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg">FI6JSMXMWBFYJNUFATPKPETI2M.jpg</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#ImageObject" title="Browse http://iptc.org/std/rNews/2011-10-07#ImageObject">ImageObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">Associated Medias</a></td>
+                        <td about="https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg" typeof="rNews:ImageObject">
+                              <a class="browse" href="https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg" title="Browse https://imagenes.elpais.com/resizer/i8v-kWtzTmpXN8ZThhS7zWPGm_M=/1500x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FI6JSMXMWBFYJNUFATPKPETI2M.jpg">FI6JSMXMWBFYJNUFATPKPETI2M.jpg</a>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">datePublished</a></td>
-                  <td property="rNews:datePublished" content="10 mar 2021 - 00:10 UTC+1">
-                     <div class="property-object">10 mar 2021 - 00:10 UTC+1</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:editor">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Carmen_Valeria_Escobar">Carmen Valeria Escobar</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Tengo miedo">
-                     <div class="property-object">Tengo miedo</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais" typeof="rNews:Organization">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais">El Pais</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Organization" title="Browse http://iptc.org/std/rNews/2011-10-07#Organization">Organization</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
+
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://elpais.com/planeta-futuro/2021-03-08/tengo-miedo.html">
                      <div class="property-object"><a class="browse" href="https://elpais.com/planeta-futuro/2021-03-08/tengo-miedo.html" title="Browse https://elpais.com/planeta-futuro/2021-03-08/tengo-miedo.html">https://elpais.com/ planeta-futuro/ 2021-03-08/ tengo-miedo.html</a></div>
                   </td>
                </tr>
             </table>
          </div>
+
+
+
+
+ <!-- #################################### Noticia_5 ############################################ -->
          <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_5" typeof="rNews:NewsItem">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_5" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_5">Noticia 5</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                  </th>
-               </tr>
+            <table>
+                  <tr>
+                     <th colspan="2" width=1000><a class=Noticia href="https://www.la-razon.com/ sociedad/ 2021/ 03/ 12/ los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/" title="click to read the article">Noticia 5</a>
+                     </th>
+
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                     <td property="rNews:headline" content="Los casos nuevos de COVID-19 ascienden y superan el millar, los decesos llegaron a 27">
+                        <div class="Headline">Los casos nuevos de COVID-19 ascienden y superan el millar, los decesos llegaron a 27</div>
+                     </td>
+                  </tr>
+
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">Alternative headline</a></td>
+                     <td property="rNews:alternativeHeadline" content="Los datos del Ministerio de Salud dan cuenta de un acumulado nacional de positivos de 258.324 y de decesos de 11.930">
+                        <div class="Alternative_headline">Los datos del Ministerio de Salud dan cuenta de un acumulado nacional de positivos de 258.324 y de decesos de 11.930</div>
+                     </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
+                        <td>
+                           <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">La Razon</a></div>
+                        </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">Date</a></td>
+                     <td property="rNews:datePublished" content="12 de marzo de 2021 / 22:02">
+                        <div class="Date_published">12 de marzo de 2021 / 22:02</div>
+                     </td>
+                  </tr>
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" typeof="rNews:Concept">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">Covid 19</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Concept" title="Browse http://iptc.org/std/rNews/2011-10-07#Concept">Concept</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia" typeof="rNews:Place">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia">Bolivia</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Place" title="Browse http://iptc.org/std/rNews/2011-10-07#Place">Place</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+                  
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia" typeof="rNews:Place">
+                           <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">Covid 19</a>
+                           <a> / </a>   
+                           <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Bolivia">Bolivia</a>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">alternativeHeadline</a></td>
-                  <td property="rNews:alternativeHeadline" content="Los datos del Ministerio de Salud dan cuenta de un acumulado nacional de positivos de 258.324 y de decesos de 11.930">
-                     <div class="property-object">Los datos del Ministerio de Salud dan cuenta de un acumulado nacional de positivos de 258.324 y de decesos de 11.930</div>
-                  </td>
-               </tr>
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">Body</a></td>
                   <td property="rNews:articleBody" content="Los casos nuevos de COVID-19 superaron este viernes el millar y el número de muertos subió a 27 con relación a los 19 del jueves. Oruro pasó al tercer lugar de los departamentos con más casos al registrar 100 nuevos contagios.&#xA;&#xA;El registro del Ministerio de salud informó de 1.084 nuevos positivos, de los cuales 513 están en Santa Cruz, 135 en La Paz, 100 en Oruro, 89 en Tarija, 78 en Cochabamba, 61 en Chuquisaca, 55 en Beni, 29 en Potosí y 24 en Pando.&#xA;&#xA;Los recuperados llegaron al cierre de esta semana a 203.466 y los descartados a 533.154, mientras que los activos se sitúan en 42.928 y los sospechosos en 1.918.&#xA;&#xA;El acumulado nacional de positivos está en 258.324 y los decesos subieron a 11.930 con los 27 de este viernes.">
-                     <div class="property-object">Los casos nuevos de COVID-19 superaron este viernes el millar y el número de muertos subió a 27 con relación a los 19 del
+                     <div class="Article_body">Los casos nuevos de COVID-19 superaron este viernes el millar y el número de muertos subió a 27 con relación a los 19 del
                         jueves. Oruro pasó al tercer lugar de los departamentos con más casos al registrar 100 nuevos contagios.
                         
                         El registro del Ministerio de salud informó de 1.084 nuevos positivos, de los cuales 513 están en Santa Cruz, 135 en La Paz,
@@ -672,40 +769,24 @@
                      </div>
                   </td>
                </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#associatedMedia">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg" typeof="rNews:ImageObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg">4-1.jpg</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#ImageObject" title="Browse http://iptc.org/std/rNews/2011-10-07#ImageObject">ImageObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
+
+                        <td about="https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg" typeof="rNews:ImageObject">
+                           
+                              <a class="browse" href="https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg" title="Browse https://www.la-razon.com/wp-content/uploads/2021/03/12/02/4-1.jpg">4-1.jpg</a>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">datePublished</a></td>
-                  <td property="rNews:datePublished" content="12 de marzo de 2021 / 22:02">
-                     <div class="property-object">12 de marzo de 2021 / 22:02</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Los casos nuevos de COVID-19 ascienden y superan el millar, los decesos llegaron a 27">
-                     <div class="property-object">Los casos nuevos de COVID-19 ascienden y superan el millar, los decesos llegaron a 27</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#La_Razon">La Razon</a></div>
-                  </td>
-               </tr>
+
+
+
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.la-razon.com/sociedad/2021/03/12/los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/">
                      <div class="property-object"><a class="browse" href="https://www.la-razon.com/sociedad/2021/03/12/los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/" title="Browse https://www.la-razon.com/sociedad/2021/03/12/los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/">https://www.la-razon.com/ sociedad/ 2021/ 03/ 12/ los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/
                            </a></div>
@@ -713,23 +794,69 @@
                </tr>
             </table>
          </div>
-         <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6" typeof="owl:NamedIndividual">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6">Noticia 6</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a></div>
-                  </th>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
+
+
+
+
+
+ <!-- #################################### Noticia_6 ############################################ -->
+
+            <div class="description">
+               <table>
+                     <tr>
+                        <th colspan="2" width=1000><a class="Noticia" html="https://www.abc.es/ espana/ comunidad-valenciana/ abci-pedro-cavadas-sobre-coronavirus-si-encierras-gente-casa-tienes-incidencia-cero-pero-irreal-202103121436 noticia.html#vca=mod-lo-mas-p2&vmc=leido&vso=comunidad-valenciana&vli=noticia.foto.local&vtm loMas=si&ref=https:%2F%2Fwww.abc.es%2Fespana%2Fcomunidad-valenciana%2Fabci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909 noticia.html" title="click to read the article">Noticia 6</a>
+                        </th>
+
+                     </tr>
+
+
+
+                     <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                        <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                        <td property="rNews:headline" content="Pedro Cavadas, tras vacunarse del coronavirus: «Si encierras a la gente en su casa tienes incidencia cero, pero es irreal»">
+                           <div class="Headline">Pedro Cavadas, tras vacunarse del coronavirus: «Si encierras a la gente en su casa tienes incidencia cero, pero es irreal»</div>
+                        </td>
+                     </tr>
+
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
                   <td>
-                     <div class="property-object" rel="rNews:about"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">Covid 19</a></div>
+                        <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">ABC</a></div>
                   </td>
                </tr>
+
+
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#dateModified">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#dateModified" title="Browse http://iptc.org/std/rNews/2011-10-07#dateModified">Date</a></td>
+                  <td property="rNews:dateModified" content="15/03/2021 08:33h">
+                     <div class="Date_published">15/03/2021 08:33h</div>
+                  </td>
+               </tr>
+
+
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez" typeof="rNews:Person">
+                           <a class="Person" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez">Toni Jimenez</a>
+                  </td>
+               </tr>
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+                  <td>
+                     <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">Covid 19</a></div>
+                  </td>
+               </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
                   <td property="rNews:articleBody" content="«Si encierras a la gente en su casa sin salir tienes incidencia cero», pero «eso es irreal completamente». Es la opinión del doctor Pedro Cavadas al ser preguntado por el descenso de los contagios de coronavirus en España. Con las restricciones, «la gente no se toca, no se habla, no se escupe y no se contagia», pero entonces «como ya ha bajado, los sueltas».&#xA;&#xA;«Es jugar al gato y al ratón», ha añadido a pesar de que ha rechazado hacer pronósticos sobre una posible cuarta ola de la pandemia. «Es mejor para todos no jugar al futurismo. Hay cosas que son relativamente claras y que cualquier persona con dos ojos mínimamente abiertos lo vería», ha señalado.&#xA;&#xA;Cavadas, que recibió justo ayer jueves la vacuna contra el covid-19, ha asegurado que «hay que ponérsela» porque «es lo que hay». «Yo no pago impuestos convencido», ha ejemplificado, pero «hay que pagarlos».&#xA;&#xA;Así se ha expresado este viernes el conocido cirujano tras presentar a los medios su nueva hazaña médica: un joven albino que ha recuperado su rostro tras ser víctima de un virulento cáncer de piel.&#xA;&#xA;Pedro Cavadas ha comentado también las dificultades, derivadas de la pandemia, que ha tenido su fundación para trabajar en países como Tanzania, en los que muchos pacientes se han quedado sin recibir tratamiento. «Estarán allí cuando volvamos», ha asegurado el doctor.&#xA;&#xA;[El drama del negacionismo del coronavirus que afecta al doctor Pedro Cavadas]&#xA;&#xA;«El concepto de tiempo en Occidente se mide en horas y en África subsahariana en semanas, meses o años», ha matizado. «Una persona que ha esperado quince años por una patología, puede esperar dieciséis y no es un problema muy grande, básicamente porque esperaría toda la vida y no le atendería nadie».&#xA;&#xA;Aunque las patologías malignas no puede demorarse, la «inmensa mayoría» de las intervenciones que hacen en territorio africano son malformaciones o traumatismos. «Con lo que cuesta traer un paciente aquí, puedes hacer ciento y pico pacientes allí» y «el impacto en cuanto a la población es mayor», ha apuntado el doctor.&#xA;&#xA;A distancia poco se puede realizar, pero aunque traer a los enfermos a España es mucho más complicado y caro, la actividad «tiene que seguir», siempre con casos que tienen solución para optimizar los recursos de la fundación que lleva su nombre.">
-                     <div class="property-object">«Si encierras a la gente en su casa sin salir tienes incidencia cero», pero «eso es irreal completamente». Es la opinión del
+                     <div class="Article_body">«Si encierras a la gente en su casa sin salir tienes incidencia cero», pero «eso es irreal completamente». Es la opinión del
                         doctor Pedro Cavadas al ser preguntado por el descenso de los contagios de coronavirus en España. Con las restricciones, «la
                         gente no se toca, no se habla, no se escupe y no se contagia», pero entonces «como ya ha bajado, los sueltas».
                         
@@ -762,97 +889,28 @@
                      </div>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#dateModified">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#dateModified" title="Browse http://iptc.org/std/rNews/2011-10-07#dateModified">dateModified</a></td>
-                  <td property="rNews:dateModified" content="15/03/2021 08:33h">
-                     <div class="property-object">15/03/2021 08:33h</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:editor">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Toni_Jimenez">Toni Jimenez</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Pedro Cavadas, tras vacunarse del coronavirus: «Si encierras a la gente en su casa tienes incidencia cero, pero es irreal»">
-                     <div class="property-object">Pedro Cavadas, tras vacunarse del coronavirus: «Si encierras a la gente en su casa tienes incidencia cero, pero es irreal»</div>
-                  </td>
-               </tr>
+
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#mentions">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#mentions" title="Browse http://iptc.org/std/rNews/2011-10-07#mentions">mentions</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:mentions">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_7" typeof="rNews:NewsItem">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_7" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_7">Noticia 7</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                              <td>
-                                 <div class="property-object" rel="rNews:about"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">Covid 19</a></div>
-                              </td>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#associatedArticle">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedArticle" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedArticle">associatedArticle</a></td>
-                              <td>
-                                 <div class="property-object" rel="rNews:associatedArticle"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6">Noticia 6</a></div>
-                              </td>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#dateModified">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#dateModified" title="Browse http://iptc.org/std/rNews/2011-10-07#dateModified">dateModified</a></td>
-                              <td property="rNews:dateModified" content="05/03/2021 12:13h">
-                                 <div class="property-object">05/03/2021 12:13h</div>
-                              </td>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                              <td>
-                                 <div class="property-object" rel="rNews:editor"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros">Alberto Caparros</a></div>
-                              </td>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#inLanguage">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#inLanguage" title="Browse http://iptc.org/std/rNews/2011-10-07#inLanguage">inLanguage</a></td>
-                              <td property="rNews:inLanguage" content="Spanish">
-                                 <div class="property-object">Spanish</div>
-                              </td>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                              <td>
-                                 <div class="property-object" rel="rNews:provider"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">ABC</a></div>
-                              </td>
-                           </tr>
-                           <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                              <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
-                              <td property="rNews:url" content="https://www.abc.es/espana/comunidad-valenciana/abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902_noticia.html">
-                                 <div class="property-object"><a class="browse" href="https://www.abc.es/espana/comunidad-valenciana/abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902_noticia.html" title="Browse https://www.abc.es/espana/comunidad-valenciana/abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902_noticia.html">https://www.abc.es/ espana/ comunidad-valenciana/ abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902
-                                       noticia.html</a></div>
-                              </td>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#mentions" title="Browse http://iptc.org/std/rNews/2011-10-07#mentions">Mentions</a></td>
+                  <td> <a class="Headline"> Noticia 7 </a></td>
+               
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">ABC</a></div>
-                  </td>
-               </tr>
+
+
+
+
+
+
+
+
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.abc.es/espana/comunidad-valenciana/abci-pedro-cavadas-sobre-coronavirus-si-encierras-gente-casa-tienes-incidencia-cero-pero-irreal-202103121436_noticia.html#vca=mod-lo-mas-p2&amp;vmc=leido&amp;vso=comunidad-valenciana&amp;vli=noticia.foto.local&amp;vtm_loMas=si&amp;ref=https:%2F%2Fwww.abc.es%2Fespana%2Fcomunidad-valenciana%2Fabci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html">
                      <div class="property-object"><a class="browse" href="https://www.abc.es/espana/comunidad-valenciana/abci-pedro-cavadas-sobre-coronavirus-si-encierras-gente-casa-tienes-incidencia-cero-pero-irreal-202103121436_noticia.html#vca=mod-lo-mas-p2&amp;vmc=leido&amp;vso=comunidad-valenciana&amp;vli=noticia.foto.local&amp;vtm_loMas=si&amp;ref=https:%2F%2Fwww.abc.es%2Fespana%2Fcomunidad-valenciana%2Fabci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html" title="Browse https://www.abc.es/espana/comunidad-valenciana/abci-pedro-cavadas-sobre-coronavirus-si-encierras-gente-casa-tienes-incidencia-cero-pero-irreal-202103121436_noticia.html#vca=mod-lo-mas-p2&amp;vmc=leido&amp;vso=comunidad-valenciana&amp;vli=noticia.foto.local&amp;vtm_loMas=si&amp;ref=https:%2F%2Fwww.abc.es%2Fespana%2Fcomunidad-valenciana%2Fabci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909_noticia.html">https://www.abc.es/ espana/ comunidad-valenciana/ abci-pedro-cavadas-sobre-coronavirus-si-encierras-gente-casa-tienes-incidencia-cero-pero-irreal-202103121436
                            noticia.html#vca=mod-lo-mas-p2&amp;vmc=leido&amp;vso=comunidad-valenciana&amp;vli=noticia.foto.local&amp;vtm loMas=si&amp;ref=https:%2F%2Fwww.abc.es%2Fespana%2Fcomunidad-valenciana%2Fabci-pueblo-castellon-busca-familias-ninos-cambio-casa-gratis-y-trabajo-202103140909
@@ -861,110 +919,218 @@
                </tr>
             </table>
          </div>
+
+
+
+ <!-- #################################### Noticia_7 ############################################ -->
          <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_8" typeof="owl:NamedIndividual">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_8" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_8">Noticia 8</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a></div>
-                  </th>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico" typeof="rNews:Place">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico">Mexico</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Place" title="Browse http://iptc.org/std/rNews/2011-10-07#Place">Place</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:about">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion" typeof="rNews:Concept">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion">Libertad de expresion</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Concept" title="Browse http://iptc.org/std/rNews/2011-10-07#Concept">Concept</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">alternativeHeadline</a></td>
-                  <td property="rNews:alternativeHeadline" content="En 2020 han sido asesinados en todo el mundo 50 informadores, según Reporteros sin Fronteras">
-                     <div class="property-object">En 2020 han sido asesinados en todo el mundo 50 informadores, según Reporteros sin Fronteras</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">datePublished</a></td>
-                  <td property="rNews:datePublished" content="29 dic 2020 - 16:27 UTC+1">
-                     <div class="property-object">29 dic 2020 - 16:27 UTC+1</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">editor</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:editor">
-                        <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez" typeof="rNews:Person">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez">Rosario G. Gomez</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#Person" title="Browse http://iptc.org/std/rNews/2011-10-07#Person">Person</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="México, el país más peligroso para los periodistas">
-                     <div class="property-object">México, el país más peligroso para los periodistas</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais">El Pais</a></div>
-                  </td>
-               </tr>
+            <table>
+                  <tr>
+                     <th colspan="2" width=1000><a class="Noticia" html="https://www.abc.es/espana/comunidad-valenciana/abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902/noticia.html" title="click to read the article">Noticia 7</a>
+                     </th>
+
+                  </tr>
+
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
+                     <td>   
+                     <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#ABC">ABC</a>
+                     </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#dateModified">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#dateModified" title="Browse http://iptc.org/std/rNews/2011-10-07#dateModified">Date</a></td>
+                     <td property="rNews:dateModified" content="05/03/2021 12:13h">
+                        <a class="Date_published">05/03/2021 12:13h</a>
+                     </td>
+                  </tr>
+
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+                     <td>
+                        <a class="Person" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Alberto_Caparros">Alberto Caparros</a></div>
+                     </td>
+                  </tr>
+
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#inLanguage">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#inLanguage" title="Browse http://iptc.org/std/rNews/2011-10-07#inLanguage">Language</a></td>
+                     <td>
+                     <a class="Provider"> Spanish </a>
+                     </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#about">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+                     <td>
+                     <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Covid_19">Covid 19</a>
+                     </td>
+                  </tr>
+
+                  <tr class="http://iptc.org/std/rNews/2011-10-07#associatedArticle">
+                     <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedArticle" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedArticle">Associated Articles</a></td>
+                     <td>
+                        <a class="Headline" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_6">Noticia 6</a>
+                     </td>
+                  </tr>
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td property="rNews:url" content="https://www.abc.es/ espana/ comunidad-valenciana/ abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902 noticia.html">
+                     <div class="property-object"><a class="browse" href="https://www.abc.es/ espana/ comunidad-valenciana/ abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902 noticia.html" title="Browse https://www.la-razon.com/sociedad/2021/03/12/los-casos-nuevos-de-covid-19-ascienden-y-superan-el-millar-los-decesos-llegaron-a-27/">https://www.abc.es/ espana/ comunidad-valenciana/ abci-drama-negacionismo-coronavirus-afecta-doctor-pedro-cavadas-202102281902 noticia.html
+                           </a></div>
+                  </td>
+               </tr>
+            </table>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- #################################### Noticia_8 ############################################ -->
+      <div class="description">
+         <table>
+               <tr>
+                  <th colspan="2" width=1000><a class="Noticia" href="https://elpais.com/ internacional/ 2020-12-29/ mexico-el-pais-mas-peligroso-para-los-periodistas.html?rel=mas">Noticia 8</a>
+                  </th>
+
+               </tr>
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+                  <td property="rNews:headline" content="México, el país más peligroso para los periodistas">
+                     <div class="Headline">México, el país más peligroso para los periodistas</div>
+                  </td>
+               </tr>
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">Alternative headline</a></td>
+                  <td property="rNews:alternativeHeadline" content="En 2020 han sido asesinados en todo el mundo 50 informadores, según Reporteros sin Fronteras">
+                     <div class="Alternative_headline">En 2020 han sido asesinados en todo el mundo 50 informadores, según Reporteros sin Fronteras</div>
+                  </td>
+               </tr>
+
+
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
+                  <td>
+                     <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#El_Pais">El Pais</a>
+                  </td>
+               </tr>
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">Date</a></td>
+                  <td property="rNews:datePublished" content="29 dic 2020 - 16:27 UTC+1">
+                     <div class="Date_published">29 dic 2020 - 16:27 UTC+1</div>
+                  </td>
+               </tr>
+
+
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#editor">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#editor" title="Browse http://iptc.org/std/rNews/2011-10-07#editor">Editor</a></td>
+
+                     <div class="property-object" rel="rNews:editor">
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez" typeof="rNews:Person">
+ 
+                              <a class="Person" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Rosario_G._Gomez">Rosario G. Gomez</a>
+                  </td>
+               </tr>
+
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#about">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
+
+                        <td about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion" typeof="rNews:Concept">
+                           
+                           <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mexico">Mexico</a>
+                           <a> / </a>
+                           <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Libertad_de_expresion">Libertad de expresion</a>
+                  </td>
+               </tr>
+
+               <tr class="http://iptc.org/std/rNews/2011-10-07#url">
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://elpais.com/internacional/2020-12-29/mexico-el-pais-mas-peligroso-para-los-periodistas.html?rel=mas">
                      <div class="property-object"><a class="browse" href="https://elpais.com/internacional/2020-12-29/mexico-el-pais-mas-peligroso-para-los-periodistas.html?rel=mas" title="Browse https://elpais.com/internacional/2020-12-29/mexico-el-pais-mas-peligroso-para-los-periodistas.html?rel=mas">https://elpais.com/ internacional/ 2020-12-29/ mexico-el-pais-mas-peligroso-para-los-periodistas.html?rel=mas</a></div>
                   </td>
                </tr>
             </table>
          </div>
-         <div class="description">
-            <table about="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_9" typeof="rNews:NewsItem">
-               <tr>
-                  <th colspan="2"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_9" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Noticia_9">Noticia 9</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#NewsItem" title="Browse http://iptc.org/std/rNews/2011-10-07#NewsItem">NewsItem</a>, 
-                     <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                  </th>
-               </tr>
+
+
+
+
+ <!-- #################################### Noticia_9 ############################################ -->
+ <div class="description">
+   <table>
+         <tr>
+            <th colspan="2" width=1000><a class="Noticia" href="https://www.mundodeportivo.com/ futbol/ atletico-madrid/ 20210315/ 492713142774/ buenos-presagios-sobre-el-arbitro-que-pitara-la-final-de-londres.html">Noticia 9</a>
+            </th>
+
+         </tr>
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">Headline</a></td>
+            <td property="rNews:headline" content="Buenos presagios sobre el árbitro que pitará la ‘final’ de Londres">
+               <div class="Headline">Buenos presagios sobre el árbitro que pitará la ‘final’ de Londres</div>
+            </td>
+         </tr>
+
+
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">Alternative headline</a></td>
+            <td property="rNews:alternativeHeadline" content="El Atlético de Madrid ya conoce el colegiado que le pitará ante el Chelsea.">
+               <div class="Alternative_headline">El Atlético de Madrid ya conoce el colegiado que le pitará ante el Chelsea.</div>
+            </td>
+         </tr>
+
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">Provider</a></td>
+            <td>
+               <a class="Provider" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo">Mundo Deportivo</a>
+            </td>
+         </tr>
+
+         <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
+            <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">Date</a></td>
+            <td property="rNews:datePublished" content="15-03-2021 10:54">
+               <div class="Date_published">15-03-2021 10:54</div>
+            </td>
+         </tr>
+
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#about">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">about</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#about" title="Browse http://iptc.org/std/rNews/2011-10-07#about">About</a></td>
                   <td>
-                     <div class="property-object" rel="rNews:about"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid">Madrid</a></div>
-                     <div class="connector">,</div>
-                     <div class="property-object" rel="rNews:about"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte">Deporte</a></div>
-                     <div class="connector">&nbsp; and</div>
-                     <div class="property-object" rel="rNews:about"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG">PSG</a></div>
+                     <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Madrid">Madrid</a>
+                     <a> / </a>
+                     <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Deporte">Deporte</a>
+                     <a> / </a>
+                     <a class="Concept" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#PSG">PSG</a>
                   </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#alternativeHeadline" title="Browse http://iptc.org/std/rNews/2011-10-07#alternativeHeadline">alternativeHeadline</a></td>
-                  <td property="rNews:alternativeHeadline" content="El Atlético de Madrid ya conoce el colegiado que le pitará ante el Chelsea.">
-                     <div class="property-object">El Atlético de Madrid ya conoce el colegiado que le pitará ante el Chelsea.</div>
-                  </td>
-               </tr>
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#articleBody">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">articleBody</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#articleBody" title="Browse http://iptc.org/std/rNews/2011-10-07#articleBody">Body</a></td>
                   <td property="rNews:articleBody" content="El italiano Daniele Orsato, que dirigió la última final Bayern Múnich-PSG, dirigirá este miércoles el encuentro entre el Chelsea y el Atlético de Madrid, correspondiente a la vuelta de octavos de final de la Liga de Campeones.&#xA;&#xA;Nacido el 24 de noviembre de 1975 e internacional desde 2010, estará auxiliado en las bandas por Alessandro Giallatini y Fabiano Preti; el cuarto árbitro será Daniele Doveri; y los encargados del VAR Massimiliano Irrati y Paolo Valeri.&#xA;&#xA;Es un árbitro de buen recuerdo tanto para el Atlético de Madrid como para el Chelsea. El cuadro rojiblanco ganó en los campos del Austria Viena (0-3, temporada 2013/14) y Rostov (0-1, campaña 2016/17) y al Borussia Dortmund en Madrid (2-0, 2018/19) en la fase de grupos, y en Eindhoven ante el PSV, en los octavos de la edición 2015/16, igualó a cero.&#xA;&#xA;Al Chelsea le arbitró en el empate en Maribor en la fase de grupos de la Champions 2014/15 (1-1), el triunfo en Praga ante el Sparta en la Liga Europa (0-1) y fue el cuarto colegiado de Gianluca Rocchi en la final de la Liga Europa 2018/19 en la que se impuso al Arsenal por 4-1 en el Olímpico de Baku.&#xA;&#xA;El encuentro Bayern Múnich-Lazio lo arbitrará el rumano Istvan Kovacs. Vasile Florin Marinescu y Ovidiu Artene serán los jueces de línea, Ovidiu Hategan el cuarto colegiado y los encargados del VAR serán los polacos Pawel Gil y Tomasz Kwiatkowski.">
-                     <div class="property-object">El italiano Daniele Orsato, que dirigió la última final Bayern Múnich-PSG, dirigirá este miércoles el encuentro entre el Chelsea
+                     <div class="Article_body">El italiano Daniele Orsato, que dirigió la última final Bayern Múnich-PSG, dirigirá este miércoles el encuentro entre el Chelsea
                         y el Atlético de Madrid, correspondiente a la vuelta de octavos de final de la Liga de Campeones.
                         
                         Nacido el 24 de noviembre de 1975 e internacional desde 2010, estará auxiliado en las bandas por Alessandro Giallatini y Fabiano
@@ -983,50 +1149,29 @@
                      </div>
                   </td>
                </tr>
+
+               
                <tr class="http://iptc.org/std/rNews/2011-10-07#associatedMedia">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">associatedMedia</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:associatedMedia">
-                        <table about="https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg" typeof="rNews:ImageObject">
-                           <tr>
-                              <th colspan="2"><a class="browse" href="https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg" title="Browse https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg">img jagsirvent 20200226-211915 imagenes md propias jagsirvent a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg</a><div xmlns="" class="connector"> es </div><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#ImageObject" title="Browse http://iptc.org/std/rNews/2011-10-07#ImageObject">ImageObject</a>, 
-                                 <div rel="rdf:type" class="connector"><a class="browse" href="http://www.w3.org/2002/07/owl#NamedIndividual" title="Browse http://www.w3.org/2002/07/owl#NamedIndividual">NamedIndividual</a></div>
-                              </th>
-                           </tr>
-                        </table>
-                     </div>
-                  </td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#associatedMedia" title="Browse http://iptc.org/std/rNews/2011-10-07#associatedMedia">Associated Medias</a></td>
+
+                        <td about="https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg" typeof="rNews:ImageObject">
+                           
+                              <a class="browse" href="https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg" title="Browse https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/03/15/Recortada/img_jagsirvent_20200226-211915_imagenes_md_propias_jagsirvent_a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg">img jagsirvent 20200226-211915 imagenes md propias jagsirvent a18-k9oG-U492713142774eRG-980x554@MundoDeportivo-Web.jpg</a>
+                     </td>
                </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#datePublished">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#datePublished" title="Browse http://iptc.org/std/rNews/2011-10-07#datePublished">datePublished</a></td>
-                  <td property="rNews:datePublished" content="15-03-2021 10:54">
-                     <div class="property-object">15-03-2021 10:54</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#headline">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#headline" title="Browse http://iptc.org/std/rNews/2011-10-07#headline">headline</a></td>
-                  <td property="rNews:headline" content="Buenos presagios sobre el árbitro que pitará la ‘final’ de Londres">
-                     <div class="property-object">Buenos presagios sobre el árbitro que pitará la ‘final’ de Londres</div>
-                  </td>
-               </tr>
-               <tr class="http://iptc.org/std/rNews/2011-10-07#provider">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#provider" title="Browse http://iptc.org/std/rNews/2011-10-07#provider">provider</a></td>
-                  <td>
-                     <div class="property-object" rel="rNews:provider"><a class="browse" href="http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo" title="Browse http://www.semanticweb.org/bcosson/ontologies/2021/2/noticias_ej1#Mundo_Deportivo">Mundo Deportivo</a></div>
-                  </td>
-               </tr>
+
+
                <tr class="http://iptc.org/std/rNews/2011-10-07#url">
-                  <td><a class="browse" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
+                  <td><a class="Row" href="http://iptc.org/std/rNews/2011-10-07#url" title="Browse http://iptc.org/std/rNews/2011-10-07#url">url</a></td>
                   <td property="rNews:url" content="https://www.mundodeportivo.com/futbol/atletico-madrid/20210315/492713142774/buenos-presagios-sobre-el-arbitro-que-pitara-la-final-de-londres.html">
                      <div class="property-object"><a class="browse" href="https://www.mundodeportivo.com/futbol/atletico-madrid/20210315/492713142774/buenos-presagios-sobre-el-arbitro-que-pitara-la-final-de-londres.html" title="Browse https://www.mundodeportivo.com/futbol/atletico-madrid/20210315/492713142774/buenos-presagios-sobre-el-arbitro-que-pitara-la-final-de-londres.html">https://www.mundodeportivo.com/ futbol/ atletico-madrid/ 20210315/ 492713142774/ buenos-presagios-sobre-el-arbitro-que-pitara-la-final-de-londres.html</a></div>
                   </td>
                </tr>
             </table>
-         </div>
+         
       </div>
-      <div id="footlogo">
-         <div id="logo"><a href="http://rhizomik.net/redefer"><img width="32" height="32" src="https://rhizomik.net/assets/rhizomikEye.png" alt="Rhizomik"></img> Powered by Rhizomik
-               								</a></div>
-      </div>
+
+
+
    </body>
 </html>
